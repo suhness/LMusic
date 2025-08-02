@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		5ACF625C2E3DC9BD0007DE8C /* TestSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ACF62732E3DCB010007DE8C /* LMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		5ACF625E2E3DC9BD0007DE8C /* TestSwift */ = {
+		5ACF62752E3DCB010007DE8C /* LMusic */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TestSwift;
+			path = LMusic;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5ACF62592E3DC9BD0007DE8C /* Frameworks */ = {
+		5ACF62702E3DCB010007DE8C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5ACF62532E3DC9BD0007DE8C = {
+		5ACF626A2E3DCB010007DE8C = {
 			isa = PBXGroup;
 			children = (
-				5ACF625E2E3DC9BD0007DE8C /* TestSwift */,
-				5ACF625D2E3DC9BD0007DE8C /* Products */,
+				5ACF62752E3DCB010007DE8C /* LMusic */,
+				5ACF62742E3DCB010007DE8C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5ACF625D2E3DC9BD0007DE8C /* Products */ = {
+		5ACF62742E3DCB010007DE8C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5ACF625C2E3DC9BD0007DE8C /* TestSwift.app */,
+				5ACF62732E3DCB010007DE8C /* LMusic.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5ACF625B2E3DC9BD0007DE8C /* TestSwift */ = {
+		5ACF62722E3DCB010007DE8C /* LMusic */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5ACF62672E3DC9BE0007DE8C /* Build configuration list for PBXNativeTarget "TestSwift" */;
+			buildConfigurationList = 5ACF627E2E3DCB030007DE8C /* Build configuration list for PBXNativeTarget "LMusic" */;
 			buildPhases = (
-				5ACF62582E3DC9BD0007DE8C /* Sources */,
-				5ACF62592E3DC9BD0007DE8C /* Frameworks */,
-				5ACF625A2E3DC9BD0007DE8C /* Resources */,
+				5ACF626F2E3DCB010007DE8C /* Sources */,
+				5ACF62702E3DCB010007DE8C /* Frameworks */,
+				5ACF62712E3DCB010007DE8C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				5ACF625E2E3DC9BD0007DE8C /* TestSwift */,
+				5ACF62752E3DCB010007DE8C /* LMusic */,
 			);
-			name = TestSwift;
+			name = LMusic;
 			packageProductDependencies = (
 			);
-			productName = TestSwift;
-			productReference = 5ACF625C2E3DC9BD0007DE8C /* TestSwift.app */;
+			productName = LMusic;
+			productReference = 5ACF62732E3DCB010007DE8C /* LMusic.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5ACF62542E3DC9BD0007DE8C /* Project object */ = {
+		5ACF626B2E3DCB010007DE8C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1640;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
-					5ACF625B2E3DC9BD0007DE8C = {
+					5ACF62722E3DCB010007DE8C = {
 						CreatedOnToolsVersion = 16.4;
 					};
 				};
 			};
-			buildConfigurationList = 5ACF62572E3DC9BD0007DE8C /* Build configuration list for PBXProject "TestSwift" */;
+			buildConfigurationList = 5ACF626E2E3DCB010007DE8C /* Build configuration list for PBXProject "LMusic" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 5ACF62532E3DC9BD0007DE8C;
+			mainGroup = 5ACF626A2E3DCB010007DE8C;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 5ACF625D2E3DC9BD0007DE8C /* Products */;
+			productRefGroup = 5ACF62742E3DCB010007DE8C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5ACF625B2E3DC9BD0007DE8C /* TestSwift */,
+				5ACF62722E3DCB010007DE8C /* LMusic */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5ACF625A2E3DC9BD0007DE8C /* Resources */ = {
+		5ACF62712E3DCB010007DE8C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -115,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5ACF62582E3DC9BD0007DE8C /* Sources */ = {
+		5ACF626F2E3DCB010007DE8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -125,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5ACF62652E3DC9BE0007DE8C /* Debug */ = {
+		5ACF627C2E3DCB030007DE8C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -188,7 +188,7 @@
 			};
 			name = Debug;
 		};
-		5ACF62662E3DC9BE0007DE8C /* Release */ = {
+		5ACF627D2E3DCB030007DE8C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,7 +244,7 @@
 			};
 			name = Release;
 		};
-		5ACF62682E3DC9BE0007DE8C /* Debug */ = {
+		5ACF627F2E3DCB030007DE8C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -263,7 +263,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-11.TestSwift";
+				PRODUCT_BUNDLE_IDENTIFIER = "-11.LMusic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -271,7 +271,7 @@
 			};
 			name = Debug;
 		};
-		5ACF62692E3DC9BE0007DE8C /* Release */ = {
+		5ACF62802E3DCB030007DE8C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -290,7 +290,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "-11.TestSwift";
+				PRODUCT_BUNDLE_IDENTIFIER = "-11.LMusic";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -301,25 +301,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5ACF62572E3DC9BD0007DE8C /* Build configuration list for PBXProject "TestSwift" */ = {
+		5ACF626E2E3DCB010007DE8C /* Build configuration list for PBXProject "LMusic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5ACF62652E3DC9BE0007DE8C /* Debug */,
-				5ACF62662E3DC9BE0007DE8C /* Release */,
+				5ACF627C2E3DCB030007DE8C /* Debug */,
+				5ACF627D2E3DCB030007DE8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5ACF62672E3DC9BE0007DE8C /* Build configuration list for PBXNativeTarget "TestSwift" */ = {
+		5ACF627E2E3DCB030007DE8C /* Build configuration list for PBXNativeTarget "LMusic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5ACF62682E3DC9BE0007DE8C /* Debug */,
-				5ACF62692E3DC9BE0007DE8C /* Release */,
+				5ACF627F2E3DCB030007DE8C /* Debug */,
+				5ACF62802E3DCB030007DE8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5ACF62542E3DC9BD0007DE8C /* Project object */;
+	rootObject = 5ACF626B2E3DCB010007DE8C /* Project object */;
 }

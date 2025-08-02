@@ -1,6 +1,6 @@
 //
-//  TestSwiftApp.swift
-//  TestSwift
+//  LMusicApp.swift
+//  LMusic
 //
 //  Created by liu on 2025/8/2.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct TestSwiftApp: App {
+struct LMusicApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
