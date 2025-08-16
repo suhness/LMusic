@@ -6,17 +6,31 @@
 //
 
 import SwiftUI
+import AVKit // 新增导入
+
 
 struct ContentView: View {
+    
+    init() {
+           configureAudioSession()
+       }
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("你好!")
-        }
-        .padding()
+        BottomBarView()
     }
+    
+    private func configureAudioSession() {
+           do {
+               try AVAudioSession.sharedInstance().setCategory(
+                   .playback,
+                   mode: .default
+               )
+               try AVAudioSession.sharedInstance().setActive(true)
+           } catch {
+               print("音频会话配置失败: \(error.localizedDescription)")
+           }
+       }
+    
 }
 
 #Preview {
